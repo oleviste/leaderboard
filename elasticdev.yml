@@ -1,0 +1,10 @@
+stack_name: Stacks/CD/Meteor/React/Dev/main
+arguments:
+     DockerProvider: docker.io
+     DockerUsername:  williaumwu
+     DockerConfigEnv: public
+     DockerRepoName: leaderboard
+     num_of_dbs: 1
+     db_size: t2.micro
+     size: t2.medium
+     region: ap-southeast-1
