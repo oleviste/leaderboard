@@ -1,5 +1,7 @@
 stack_name: Stacks/CD/Meteor/React/Dev/main
 arguments:
+     EnvVars:
+        METEOR_SETTINGS: '{{ METEOR_SETTINGS }}'
      DockerProvider: docker.io
      DockerUsername:  williaumwu
      DockerConfigEnv: public
