@@ -3,7 +3,7 @@ arguments:
      EnvVars:
         METEOR_SETTINGS: '{{ METEOR_SETTINGS }}'
      DockerProvider: docker.io
-     DockerUsername:  williaumwu
+     DockerUsername:  oleviste
      DockerConfigEnv: public
      DockerRepoName: leaderboard
      num_of_dbs: 1
